@@ -15,3 +15,16 @@ document.querySelectorAll(".wrapper").forEach((item) => {
   });
 });
 // End of common section
+
+// Videos
+const videos = document.querySelectorAll(".video");
+
+videos.forEach((video) => {
+  video.addEventListener("mouseover", () => {
+    video.play();
+  });
+  video.addEventListener("mouseout", () => {
+    video.pause();
+  });
+});
+// End of videos
