@@ -23,7 +23,7 @@ body {
 .center {
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 /* End of common styles */
 
@@ -47,7 +47,7 @@ body {
 
 .menu-line {
   width: 100%;
-  height: 0.2rem;  
+  height: 0.2rem;
   background-color: #fff;
   margin: 0.3rem 0;
   box-shadow: 0.1rem 0.1rem 0.3rem #222;
@@ -55,11 +55,11 @@ body {
 }
 
 .change .menu-line-1 {
-  transform: rotate(270deg) translateX(-0.4rem);  
+  transform: rotate(270deg) translateX(-0.4rem);
 }
 
 .change .menu-line-2 {
-  transform: rotate(360deg) translateY(-0.4rem);  
+  transform: rotate(360deg) translateY(-0.4rem);
 }
 /* End of menu */
 
@@ -85,7 +85,7 @@ body {
 .navbar-link {
   font-size: 1.5rem;
   font-weight: 600;
-  margin: 2rem 0;  
+  margin: 2rem 0;
   color: #777;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
@@ -93,7 +93,7 @@ body {
 }
 
 .navbar-link:hover {
-  color: #111;  
+  color: #111;
 }
 /* End of navbar */
 
@@ -128,7 +128,7 @@ section.change {
   margin-bottom: 10rem;
   letter-spacing: 1rem;
   text-align: center;
-  text-shadow: 0.3rem 0.3rem 0.5rem #555;  
+  text-shadow: 0.3rem 0.3rem 0.5rem #555;
 }
 /* End of common section styles */
 
@@ -142,11 +142,11 @@ section.change {
 .section-1 .section-1-heading {
   margin-bottom: 3rem;
   text-transform: uppercase;
-  text-shadow: 1rem 1rem 1rem #000, 2rem 2rem 2rem #111, 3rem 3rem 3rem #222;  
+  text-shadow: 1rem 1rem 1rem #000, 2rem 2rem 2rem #111, 3rem 3rem 3rem #222;
 }
 
 .section-1-img {
-  width: 70%;  
+  width: 70%;
 }
 /* End of section 1 */
 
@@ -154,11 +154,11 @@ section.change {
 .section-2 {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;  
+  justify-content: space-around;
 }
 
 .card {
-  width: 50rem;  
+  width: 50rem;
   margin: 0 3rem;
   background-color: #fff;
   padding: 1rem;
@@ -168,14 +168,14 @@ section.change {
 }
 
 .card:hover {
-  box-shadow: 0.8rem 0.8rem 0.8rem #bbb;  
+  box-shadow: 0.8rem 0.8rem 0.8rem #bbb;
 }
 
 .car-name {
   font-size: 2rem;
   font-weight: 600;
   text-transform: uppercase;
-  color: #fff;   
+  color: #fff;
   position: absolute;
   top: 2rem;
   left: 2rem;
@@ -183,19 +183,19 @@ section.change {
 }
 
 .card-img {
-  width: 100%;  
+  width: 100%;
   opacity: 0.8;
   transition: opacity 0.5s;
 }
 
 .card:hover .card-img {
-  opacity: 1;  
+  opacity: 1;
 }
 
 .car-price {
   font-size: 1.8rem;
   color: #777;
-  margin: 0.5rem 0;  
+  margin: 0.5rem 0;
 }
 
 .card-btn {
@@ -203,14 +203,14 @@ section.change {
   background-color: #fff;
   font-size: 1.7rem;
   letter-spacing: 0.3rem;
-  text-transform: uppercase; 
+  text-transform: uppercase;
   border: none;
   margin-top: 1rem;
   padding: 0.5rem;
   color: #fff;
   text-shadow: 0.1rem 0.1rem 0.3rem #000;
   box-shadow: 0.1rem 0.1rem 0.5rem #bbb;
-  cursor: pointer;  
+  cursor: pointer;
 }
 /* End of section 2 */
 
@@ -223,7 +223,7 @@ section.change {
 }
 
 .video {
-  width: 25%;  
+  width: 25%;
   margin: 0 2rem;
   border-radius: 0.5rem;
   opacity: 0.8;
@@ -233,7 +233,7 @@ section.change {
 
 .video:hover {
   opacity: 1;
-  box-shadow: 0.5rem 0.5rem 1rem #111;  
+  box-shadow: 0.5rem 0.5rem 1rem #111;
 }
 /* End of section 3 */
 
@@ -241,11 +241,11 @@ section.change {
 .section-4 {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 
 .gallery {
-  margin: 10rem 0;  
+  margin: 10rem 0;
   perspective: 10rem;
   transform-style: preserve-3d;
 }
@@ -254,7 +254,7 @@ section.change {
   width: 80%;
   height: 3rem;
   background-color: rgba(38, 126, 199, 0.8);
-  margin: auto;  
+  margin: auto;
   position: relative;
   transform-style: inherit;
   box-shadow: 1rem 1rem 5rem #444;
@@ -262,7 +262,7 @@ section.change {
 
 .gallery-shelf::before {
   content: "";
-  position: absolute;  
+  position: absolute;
   width: 100%;
   height: 10rem;
   background-color: rgba(34, 152, 248, 0.7);
@@ -288,14 +288,77 @@ section.change {
 }
 
 .gallery-img-1 {
-  left: 50%;  
+  left: 50%;
 }
 
 .gallery-img-2 {
-  left: 30%;  
+  left: 30%;
 }
 
 .gallery-img-3 {
-  left: 70%;  
+  left: 70%;
 }
 /* End of section 4 */
+
+/* Section 5 */
+.section-5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url(images/bg-section5.jpg) center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.contact-form {
+  width: 60rem;
+  height: 45rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2rem solid rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem;  
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  height: 4rem;
+  margin: 2rem 0;
+  background-color: transparent;
+  padding: 0.5rem;
+  border: 0.1rem solid #fff;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  color: #fff;  
+  flex-shrink: 0;
+  transition: background-color 0.5s;
+}
+
+.contact-form textarea {
+  max-width: 100%;
+  min-height: 8rem;  
+}
+
+.form-input:focus {
+  background-color: rgba(255, 255, 255, 0.5);  
+}
+
+.contact-form .form-btn {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+  color: #444;
+  cursor: pointer;  
+}
+
+.copyright {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;  
+}
+/* End of section 5 */
